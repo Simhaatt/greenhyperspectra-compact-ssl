@@ -10,7 +10,7 @@ type: software
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2026-09-14
-repository-code: "https://github.com/OWNER/greenhyperspectra-compact-ssl"
+repository-code: "https://github.com/Simhaatt/greenhyperspectra-compact-ssl"
 keywords:
   - hyperspectral reflectance
   - plant trait prediction
