@@ -33,7 +33,7 @@ See **[docs/DATA.md](docs/DATA.md)** for how to obtain and place them.
 ## Quick start
 
 ```bash
-git clone https://github.com/OWNER/greenhyperspectra-compact-ssl.git
+git clone https://github.com/Simhaatt/greenhyperspectra-compact-ssl.git
 cd greenhyperspectra-compact-ssl
 
 python -m venv .venv && source .venv/bin/activate    # Windows: .venv\Scripts\activate
