@@ -1,0 +1,9 @@
+target,labelled_rows,source_count_with_labels,min_labels_per_source,median_labels_per_source,max_labels_per_source,sources_with_at_least_20_labels,sources_with_at_least_50_labels
+cab,2005,25,14,59.0,362,23,14
+cw,2100,19,21,76.0,360,19,15
+cm,3680,34,14,78.0,360,31,25
+LAI,1449,17,14,48.0,363,15,8
+cp,2758,29,14,76.0,330,26,20
+cbc,2758,29,14,76.0,330,26,20
+car,1660,20,14,55.0,362,17,11
+anth,362,1,362,362.0,362,1,1

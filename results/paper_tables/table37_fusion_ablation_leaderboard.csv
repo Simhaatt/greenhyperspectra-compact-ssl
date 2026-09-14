@@ -1,0 +1,7 @@
+fusion_method,model,mean_r2,mean_rmse,best_traits,comment
+Beam only,BeamK30_ResidualMLP,0.6206342950463295,1.5441163147287145,"cbc (0.711), cm (0.675), cw (0.660), cp (0.645)",Strong compact labelled baseline.
+Cross-gated NAM,Hybrid_BeamK30_SSL_CrossGatedNAMHead,0.5968398203452429,1.5410974814707947,"cbc (0.690), cm (0.649), cp (0.632), cw (0.599)",Proposed hybrid fusion/head combination.
+Beam + SSL additive,BeamK30_SSL128_AdditiveFusion,0.5910035421450932,1.5394795318972658,"cbc (0.693), cm (0.658), cp (0.629), cw (0.605)",Projects both streams to a shared latent space and adds them.
+FiLM conditioning,BeamK30_SSL128_FiLMFusion,0.5836058681209881,1.5492821813115811,"cbc (0.673), cm (0.648), cp (0.615), cw (0.598)",Uses SSL context to scale and shift the Beam representation.
+Beam + SSL concat,BeamK30_SSL128_ConcatMLP,0.5277695556481679,1.6051230499732854,"cbc (0.647), cm (0.634), cab (0.538), cp (0.534)",Simple concatenation baseline.
+SSL only,SSL128_Only_MLP,0.3277800381183624,1.909270512228069,"LAI (0.426), cm (0.403), car (0.358), cbc (0.351)",Tests whether the SSL embedding alone carries trait signal.

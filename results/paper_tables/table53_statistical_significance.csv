@@ -1,0 +1,2 @@
+comparison,n_pairs,mean_delta_r2,std_delta_r2,median_delta_r2,ci95_low,ci95_high,paired_ttest_p_value,wilcoxon_p_value,traits_improved,traits_compared
+BeamK30 ResidualMLP - best full-spectrum baseline,40,0.07970636664082274,0.06621876632632664,0.09097179878074113,0.05886698370408698,0.09983914196368356,3.1348579807947292e-09,3.9488440961577e-08,7,8
