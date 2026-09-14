@@ -1,0 +1,42 @@
+{
+  "title": "Band- and Label-Efficient Hyperspectral Plant Trait Prediction: reproducibility package",
+  "description": "<p>Code, trait-specific selected wavelengths and result tables supporting the article <em>Band- and Label-Efficient Hyperspectral Plant Trait Prediction with Compact Wavelength Selection and Self-Supervised Pretraining</em>.</p><p>Covers beam-search wavelength selection (30 bands per trait), compact regression heads, a one-dimensional masked spectral autoencoder yielding a 128-dimensional representation, structured hybrid fusion, label-efficiency experiments, leave-source-out validation and few-sample affine recalibration on the GreenHyperSpectra dataset.</p>",
+  "upload_type": "software",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "hyperspectral reflectance",
+    "plant trait prediction",
+    "wavelength selection",
+    "label efficiency",
+    "self-supervised learning",
+    "domain shift",
+    "precision agriculture"
+  ],
+  "creators": [
+    {
+      "name": "T. T., Simhaa",
+      "affiliation": "Sri Sivasubramaniya Nadar College of Engineering, Chennai, India"
+    },
+    {
+      "name": "K. V., Shihabudheen",
+      "affiliation": "National Institute of Technology Calicut, Kozhikode, India"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://doi.org/10.1016/j.saa.XXXXXX",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "relation": "isDerivedFrom",
+      "identifier": "https://huggingface.co/datasets/EvaCherif/GreenHyperSpectra",
+      "scheme": "url",
+      "resource_type": "dataset"
+    }
+  ]
+}

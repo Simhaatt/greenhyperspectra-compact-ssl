@@ -1,0 +1,4 @@
+target,description,train_labeled_samples,test_labeled_samples,total_labeled_samples,spectral_bands,wavelength_range_nm,unlabeled_spectra_available
+cab,chlorophyll content,1609,396,2005,1721,400-2450,139295
+cw,leaf water content,1676,424,2100,1721,400-2450,139295
+cm,dry matter / leaf mass trait,2944,736,3680,1721,400-2450,139295

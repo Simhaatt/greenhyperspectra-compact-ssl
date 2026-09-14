@@ -1,0 +1,241 @@
+trait,rank,wavelength_nm,spectral_feature,physiological_interpretation
+cab,1,1350,other spectral region,supporting or continuum wavelength
+cab,2,424,other spectral region,supporting or continuum wavelength
+cab,3,547,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+cab,4,817,NIR structure plateau,leaf/canopy structure and scattering
+cab,5,739,red-edge inflection,chlorophyll-structure transition
+cab,6,882,NIR structure plateau,leaf/canopy structure and scattering
+cab,7,841,NIR structure plateau,leaf/canopy structure and scattering
+cab,8,649,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+cab,9,683,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+cab,10,954,970 nm water absorption,leaf/canopy water sensitivity
+cab,11,1129,NIR structure plateau,leaf/canopy structure and scattering
+cab,12,1459,1450 nm water absorption,strong water absorption
+cab,13,1264,NIR structure plateau,leaf/canopy structure and scattering
+cab,14,1198,1200 nm water/dry matter shoulder,water and dry matter continuum
+cab,15,641,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+cab,16,618,other spectral region,supporting or continuum wavelength
+cab,17,1170,1200 nm water/dry matter shoulder,water and dry matter continuum
+cab,18,716,red-edge inflection,chlorophyll-structure transition
+cab,19,697,other spectral region,supporting or continuum wavelength
+cab,20,612,other spectral region,supporting or continuum wavelength
+cab,21,637,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+cab,22,710,red-edge inflection,chlorophyll-structure transition
+cab,23,1487,1450 nm water absorption,strong water absorption
+cab,24,1444,1450 nm water absorption,strong water absorption
+cab,25,715,red-edge inflection,chlorophyll-structure transition
+cab,26,616,other spectral region,supporting or continuum wavelength
+cab,27,1193,1200 nm water/dry matter shoulder,water and dry matter continuum
+cab,28,1188,1200 nm water/dry matter shoulder,water and dry matter continuum
+cab,29,548,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+cab,30,698,other spectral region,supporting or continuum wavelength
+cw,1,1597,other spectral region,supporting or continuum wavelength
+cw,2,539,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+cw,3,585,other spectral region,supporting or continuum wavelength
+cw,4,1545,other spectral region,supporting or continuum wavelength
+cw,5,1106,NIR structure plateau,leaf/canopy structure and scattering
+cw,6,1184,1200 nm water/dry matter shoulder,water and dry matter continuum
+cw,7,1297,NIR structure plateau,leaf/canopy structure and scattering
+cw,8,980,970 nm water absorption,leaf/canopy water sensitivity
+cw,9,1697,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cw,10,1434,1450 nm water absorption,strong water absorption
+cw,11,1591,other spectral region,supporting or continuum wavelength
+cw,12,1705,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cw,13,1289,NIR structure plateau,leaf/canopy structure and scattering
+cw,14,937,970 nm water absorption,leaf/canopy water sensitivity
+cw,15,1602,other spectral region,supporting or continuum wavelength
+cw,16,1609,other spectral region,supporting or continuum wavelength
+cw,17,1664,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cw,18,1652,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cw,19,1668,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cw,20,1642,other spectral region,supporting or continuum wavelength
+cw,21,1593,other spectral region,supporting or continuum wavelength
+cw,22,1601,other spectral region,supporting or continuum wavelength
+cw,23,1646,other spectral region,supporting or continuum wavelength
+cw,24,1592,other spectral region,supporting or continuum wavelength
+cw,25,1596,other spectral region,supporting or continuum wavelength
+cw,26,1608,other spectral region,supporting or continuum wavelength
+cw,27,1648,other spectral region,supporting or continuum wavelength
+cw,28,1604,other spectral region,supporting or continuum wavelength
+cw,29,1607,other spectral region,supporting or continuum wavelength
+cw,30,1606,other spectral region,supporting or continuum wavelength
+cm,1,1715,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cm,2,1559,other spectral region,supporting or continuum wavelength
+cm,3,1300,NIR structure plateau,leaf/canopy structure and scattering
+cm,4,1574,other spectral region,supporting or continuum wavelength
+cm,5,992,NIR structure plateau,leaf/canopy structure and scattering
+cm,6,510,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+cm,7,660,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+cm,8,1081,NIR structure plateau,leaf/canopy structure and scattering
+cm,9,1738,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cm,10,1728,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cm,11,1332,other spectral region,supporting or continuum wavelength
+cm,12,987,970 nm water absorption,leaf/canopy water sensitivity
+cm,13,1647,other spectral region,supporting or continuum wavelength
+cm,14,1693,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cm,15,1734,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cm,16,1667,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cm,17,699,other spectral region,supporting or continuum wavelength
+cm,18,514,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+cm,19,2168,SWIR water/biochemical absorption,"water, cellulose, lignin, protein and dry matter sensitivity"
+cm,20,2166,SWIR water/biochemical absorption,"water, cellulose, lignin, protein and dry matter sensitivity"
+cm,21,2157,SWIR water/biochemical absorption,"water, cellulose, lignin, protein and dry matter sensitivity"
+cm,22,982,970 nm water absorption,leaf/canopy water sensitivity
+cm,23,1670,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cm,24,1676,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cm,25,1740,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cm,26,1672,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cm,27,2176,SWIR water/biochemical absorption,"water, cellulose, lignin, protein and dry matter sensitivity"
+cm,28,1739,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cm,29,1645,other spectral region,supporting or continuum wavelength
+cm,30,1639,other spectral region,supporting or continuum wavelength
+LAI,1,2055,SWIR water/biochemical absorption,"water, cellulose, lignin, protein and dry matter sensitivity"
+LAI,2,1066,NIR structure plateau,leaf/canopy structure and scattering
+LAI,3,746,NIR structure plateau,leaf/canopy structure and scattering
+LAI,4,1730,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+LAI,5,1340,other spectral region,supporting or continuum wavelength
+LAI,6,1324,other spectral region,supporting or continuum wavelength
+LAI,7,1601,other spectral region,supporting or continuum wavelength
+LAI,8,1054,NIR structure plateau,leaf/canopy structure and scattering
+LAI,9,1222,1200 nm water/dry matter shoulder,water and dry matter continuum
+LAI,10,990,970 nm water absorption,leaf/canopy water sensitivity
+LAI,11,681,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+LAI,12,649,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+LAI,13,653,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+LAI,14,606,other spectral region,supporting or continuum wavelength
+LAI,15,666,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+LAI,16,651,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+LAI,17,705,red-edge inflection,chlorophyll-structure transition
+LAI,18,663,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+LAI,19,531,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+LAI,20,654,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+LAI,21,661,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+LAI,22,650,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+LAI,23,662,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+LAI,24,664,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+LAI,25,2057,SWIR water/biochemical absorption,"water, cellulose, lignin, protein and dry matter sensitivity"
+LAI,26,2085,SWIR water/biochemical absorption,"water, cellulose, lignin, protein and dry matter sensitivity"
+LAI,27,2061,SWIR water/biochemical absorption,"water, cellulose, lignin, protein and dry matter sensitivity"
+LAI,28,2060,SWIR water/biochemical absorption,"water, cellulose, lignin, protein and dry matter sensitivity"
+LAI,29,2058,SWIR water/biochemical absorption,"water, cellulose, lignin, protein and dry matter sensitivity"
+LAI,30,2059,SWIR water/biochemical absorption,"water, cellulose, lignin, protein and dry matter sensitivity"
+cp,1,556,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+cp,2,533,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+cp,3,1736,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cp,4,1275,NIR structure plateau,leaf/canopy structure and scattering
+cp,5,1226,1200 nm water/dry matter shoulder,water and dry matter continuum
+cp,6,1768,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cp,7,721,red-edge inflection,chlorophyll-structure transition
+cp,8,1542,other spectral region,supporting or continuum wavelength
+cp,9,1767,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cp,10,679,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+cp,11,544,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+cp,12,793,NIR structure plateau,leaf/canopy structure and scattering
+cp,13,1573,other spectral region,supporting or continuum wavelength
+cp,14,656,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+cp,15,1665,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cp,16,1041,NIR structure plateau,leaf/canopy structure and scattering
+cp,17,1241,NIR structure plateau,leaf/canopy structure and scattering
+cp,18,1211,1200 nm water/dry matter shoulder,water and dry matter continuum
+cp,19,616,other spectral region,supporting or continuum wavelength
+cp,20,485,other spectral region,supporting or continuum wavelength
+cp,21,510,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+cp,22,522,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+cp,23,669,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+cp,24,1770,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cp,25,675,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+cp,26,630,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+cp,27,623,other spectral region,supporting or continuum wavelength
+cp,28,519,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+cp,29,551,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+cp,30,664,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+cbc,1,1706,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cbc,2,1536,other spectral region,supporting or continuum wavelength
+cbc,3,1271,NIR structure plateau,leaf/canopy structure and scattering
+cbc,4,1007,NIR structure plateau,leaf/canopy structure and scattering
+cbc,5,1090,NIR structure plateau,leaf/canopy structure and scattering
+cbc,6,709,red-edge inflection,chlorophyll-structure transition
+cbc,7,1264,NIR structure plateau,leaf/canopy structure and scattering
+cbc,8,1331,other spectral region,supporting or continuum wavelength
+cbc,9,1796,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cbc,10,669,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+cbc,11,487,other spectral region,supporting or continuum wavelength
+cbc,12,526,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+cbc,13,1581,other spectral region,supporting or continuum wavelength
+cbc,14,1618,other spectral region,supporting or continuum wavelength
+cbc,15,1737,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cbc,16,1443,1450 nm water absorption,strong water absorption
+cbc,17,646,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+cbc,18,1104,NIR structure plateau,leaf/canopy structure and scattering
+cbc,19,572,other spectral region,supporting or continuum wavelength
+cbc,20,1687,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cbc,21,1662,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cbc,22,2099,SWIR water/biochemical absorption,"water, cellulose, lignin, protein and dry matter sensitivity"
+cbc,23,1685,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cbc,24,1596,other spectral region,supporting or continuum wavelength
+cbc,25,518,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+cbc,26,1588,other spectral region,supporting or continuum wavelength
+cbc,27,1603,other spectral region,supporting or continuum wavelength
+cbc,28,2123,SWIR water/biochemical absorption,"water, cellulose, lignin, protein and dry matter sensitivity"
+cbc,29,1797,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+cbc,30,1795,SWIR biochemical absorption,cellulose/lignin/protein/dry matter sensitivity
+car,1,1431,1450 nm water absorption,strong water absorption
+car,2,440,blue chlorophyll absorption,chlorophyll/carotenoid absorption region
+car,3,568,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+car,4,400,other spectral region,supporting or continuum wavelength
+car,5,446,blue chlorophyll absorption,chlorophyll/carotenoid absorption region
+car,6,439,blue chlorophyll absorption,chlorophyll/carotenoid absorption region
+car,7,486,other spectral region,supporting or continuum wavelength
+car,8,1291,NIR structure plateau,leaf/canopy structure and scattering
+car,9,704,red-edge inflection,chlorophyll-structure transition
+car,10,909,NIR structure plateau,leaf/canopy structure and scattering
+car,11,675,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+car,12,1225,1200 nm water/dry matter shoulder,water and dry matter continuum
+car,13,1033,NIR structure plateau,leaf/canopy structure and scattering
+car,14,1275,NIR structure plateau,leaf/canopy structure and scattering
+car,15,1078,NIR structure plateau,leaf/canopy structure and scattering
+car,16,607,other spectral region,supporting or continuum wavelength
+car,17,600,other spectral region,supporting or continuum wavelength
+car,18,677,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+car,19,596,other spectral region,supporting or continuum wavelength
+car,20,457,other spectral region,supporting or continuum wavelength
+car,21,487,other spectral region,supporting or continuum wavelength
+car,22,1472,1450 nm water absorption,strong water absorption
+car,23,680,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+car,24,402,other spectral region,supporting or continuum wavelength
+car,25,441,blue chlorophyll absorption,chlorophyll/carotenoid absorption region
+car,26,1475,1450 nm water absorption,strong water absorption
+car,27,1474,1450 nm water absorption,strong water absorption
+car,28,679,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+car,29,1459,1450 nm water absorption,strong water absorption
+car,30,1455,1450 nm water absorption,strong water absorption
+anth,1,592,other spectral region,supporting or continuum wavelength
+anth,2,486,other spectral region,supporting or continuum wavelength
+anth,3,1348,other spectral region,supporting or continuum wavelength
+anth,4,1471,1450 nm water absorption,strong water absorption
+anth,5,552,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+anth,6,1297,NIR structure plateau,leaf/canopy structure and scattering
+anth,7,695,other spectral region,supporting or continuum wavelength
+anth,8,676,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+anth,9,512,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+anth,10,561,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+anth,11,1138,NIR structure plateau,leaf/canopy structure and scattering
+anth,12,972,970 nm water absorption,leaf/canopy water sensitivity
+anth,13,525,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+anth,14,721,red-edge inflection,chlorophyll-structure transition
+anth,15,655,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+anth,16,767,NIR structure plateau,leaf/canopy structure and scattering
+anth,17,1463,1450 nm water absorption,strong water absorption
+anth,18,1470,1450 nm water absorption,strong water absorption
+anth,19,694,other spectral region,supporting or continuum wavelength
+anth,20,675,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+anth,21,643,red chlorophyll absorption,chlorophyll absorption and pigment concentration
+anth,22,560,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+anth,23,557,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+anth,24,559,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+anth,25,556,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+anth,26,555,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+anth,27,558,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+anth,28,554,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+anth,29,553,green pigment reflectance,green peak and carotenoid/chlorophyll balance
+anth,30,526,green pigment reflectance,green peak and carotenoid/chlorophyll balance

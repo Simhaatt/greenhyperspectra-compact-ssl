@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software or the derived results, please cite both the software and the associated article."
+title: "Band- and Label-Efficient Hyperspectral Plant Trait Prediction: reproducibility package"
+abstract: >-
+  Code, selected wavelengths and result tables for trait-specific beam-search
+  wavelength selection, compact regression, masked self-supervised spectral
+  pretraining, leave-source-out validation and few-sample affine recalibration
+  on the GreenHyperSpectra dataset.
+type: software
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2026-09-14
+repository-code: "https://github.com/OWNER/greenhyperspectra-compact-ssl"
+keywords:
+  - hyperspectral reflectance
+  - plant trait prediction
+  - wavelength selection
+  - label efficiency
+  - self-supervised learning
+  - precision agriculture
+authors:
+  - family-names: "T. T."
+    given-names: "Simhaa"
+    affiliation: "Department of Electrical and Electronics Engineering, Sri Sivasubramaniya Nadar College of Engineering, Chennai, India"
+  - family-names: "K. V."
+    given-names: "Shihabudheen"
+    email: shihabudheen@nitc.ac.in
+    affiliation: "Department of Electrical Engineering, National Institute of Technology Calicut, Kozhikode, India"
+preferred-citation:
+  type: article
+  title: "Band- and Label-Efficient Hyperspectral Plant Trait Prediction with Compact Wavelength Selection and Self-Supervised Pretraining"
+  journal: "Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy"
+  year: 2026
+  authors:
+    - family-names: "T. T."
+      given-names: "Simhaa"
+    - family-names: "K. V."
+      given-names: "Shihabudheen"

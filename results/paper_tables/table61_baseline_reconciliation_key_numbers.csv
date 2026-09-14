@@ -1,0 +1,6 @@
+quantity,value,source,recommended_use
+manuscript_headline_model_mean_r2,0.6242237165570259,table22_current_model_mean_r2_leaderboard.csv,headline abstract/result
+manuscript_cw_beamk30_residualmlp_r2,0.6610911885897318,table13_labelled_modern_heads_r2.csv,main per-trait result
+bandpass_raw_rerun_mean_r2,0.6184300730625789,table56_finite_bandpass_simulation.csv,bandpass internal baseline only; do not headline
+bandpass_raw_rerun_cw_r2,0.6649557948112488,table56_finite_bandpass_simulation.csv,bandpass internal Cw baseline only
+best_vegetation_index_baseline_mean_r2,0.5056403387785404,table59b_vegetation_index_baseline_leaderboard.csv,simple-index reviewer baseline

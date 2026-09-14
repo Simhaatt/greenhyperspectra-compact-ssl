@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.py   text diff=python
+*.csv  text
+*.md   text
+*.png  binary
+*.pdf  binary
+*.tif  binary
+*.svg  text

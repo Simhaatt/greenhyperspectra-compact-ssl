@@ -1,0 +1,165 @@
+<mxfile host="app.diagrams.net" modified="2026-09-14T00:00:00.000Z" agent="Claude" version="24.7.17" type="device">
+  <diagram id="fig1-bold" name="Figure 1 - Workflow">
+    <mxGraphModel dx="2000" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3500" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="title" value="Experimental workflow for compact and self-supervised hyperspectral plant-trait prediction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=62;fontStyle=1;fontFamily=Arial;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="3300" height="115" as="geometry" />
+        </mxCell>
+
+        <!-- ===== INPUT ROW ===== -->
+        <mxCell id="ds" value="GreenHyperSpectra&#10;1,721 wavelengths" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#546E7A;strokeWidth=5;fontSize=56;fontStyle=1;fontFamily=Arial;fontColor=#1A1A1A;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1745" y="190" width="700" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="lab" value="Labelled spectra&#10;5,635 spectra&#10;8 plant traits" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;strokeWidth=5;fontSize=48;fontStyle=1;fontFamily=Arial;fontColor=#1A1A1A;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="470" width="560" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="unlab" value="Unlabelled spectra&#10;139,295 spectra" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;strokeWidth=5;fontSize=50;fontStyle=1;fontFamily=Arial;fontColor=#1A1A1A;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2570" y="470" width="640" height="175" as="geometry" />
+        </mxCell>
+
+        <!-- ===== PHASE 1 ===== -->
+        <mxCell id="p1box" value="" style="rounded=1;arcSize=3;whiteSpace=wrap;html=1;fillColor=#F7FAFD;strokeColor=#1565C0;strokeWidth=6;dashed=1;dashPattern=18 15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="760" width="1520" height="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="p1lbl" value="&lt;b&gt;PHASE 1&lt;/b&gt;&lt;br&gt;Compact supervised modelling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=44;fontStyle=1;fontFamily=Arial;fontColor=#0D47A1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="775" width="800" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="p1ref" value="Full-spectrum&#10;reference models" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1565C0;strokeWidth=5;fontSize=50;fontStyle=1;fontFamily=Arial;fontColor=#1A1A1A;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1010" width="560" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="p1beam" value="Trait-specific&#10;beam-search selection" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1565C0;strokeWidth=5;fontSize=50;fontStyle=1;fontFamily=Arial;fontColor=#1A1A1A;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1010" width="700" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="p1bands" value="~30 wavelengths&#10;per trait" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;strokeWidth=5;fontSize=52;fontStyle=1;fontFamily=Arial;fontColor=#1A1A1A;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1250" width="700" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="p1cmp" value="Compact regression&lt;br&gt;models&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 42px&quot;&gt;Residual MLP · MLP&lt;br&gt;Polynomial · KAN&lt;br&gt;DCN · NAM&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1565C0;strokeWidth=5;fontSize=48;fontStyle=1;fontFamily=Arial;fontColor=#1A1A1A;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1495" width="700" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p1eff" value="Spectral- and&#10;label-efficiency&#10;comparison&#10;&#10;1,721 vs ~30 bands&#10;1–100% labels" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#EF6C00;strokeWidth=5;fontSize=44;fontStyle=1;fontFamily=Arial;fontColor=#1A1A1A;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1600" width="560" height="390" as="geometry" />
+        </mxCell>
+
+        <!-- ===== PHASE 2 ===== -->
+        <mxCell id="p2box" value="" style="rounded=1;arcSize=3;whiteSpace=wrap;html=1;fillColor=#F6FBF6;strokeColor=#2E7D32;strokeWidth=6;dashed=1;dashPattern=18 15;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="760" width="1520" height="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="p2lbl" value="&lt;b&gt;PHASE 2&lt;/b&gt;&lt;br&gt;Self-supervised spectral learning" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=44;fontStyle=1;fontFamily=Arial;fontColor=#1B5E20;" vertex="1" parent="1">
+          <mxGeometry x="1815" y="775" width="920" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="p2mask" value="Contiguous&#10;wavelength masking" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E7D32;strokeWidth=5;fontSize=50;fontStyle=1;fontFamily=Arial;fontColor=#1A1A1A;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="1010" width="700" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="p2enc" value="1D masked&lt;br&gt;spectral encoder&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 42px&quot;&gt;reconstruct masked&lt;br&gt;intervals&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E7D32;strokeWidth=5;fontSize=48;fontStyle=1;fontFamily=Arial;fontColor=#1A1A1A;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="1230" width="700" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="p2rep" value="128-dimensional&#10;SSL representation" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;strokeWidth=5;fontSize=50;fontStyle=1;fontFamily=Arial;fontColor=#1A1A1A;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="1620" width="700" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="p2down" value="Trait regression&#10;on labelled spectra&#10;&#10;frozen features&#10;fine-tuning" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E7D32;strokeWidth=5;fontSize=44;fontStyle=1;fontFamily=Arial;fontColor=#1A1A1A;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="1850" width="640" height="335" as="geometry" />
+        </mxCell>
+
+        <!-- ===== PHASE 3 ===== -->
+        <mxCell id="p3box" value="" style="rounded=1;arcSize=3;whiteSpace=wrap;html=1;fillColor=#FBF8FC;strokeColor=#6A1B9A;strokeWidth=6;dashed=1;dashPattern=18 15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2290" width="3120" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="p3lbl" value="&lt;b&gt;PHASE 3&lt;/b&gt;&lt;br&gt;Representation fusion and deployment evaluation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=44;fontStyle=1;fontFamily=Arial;fontColor=#4A148C;" vertex="1" parent="1">
+          <mxGeometry x="215" y="2305" width="1280" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="p3fuse" value="Representation fusion&lt;br&gt;&lt;font style=&quot;font-size: 44px&quot;&gt;concatenation · additive fusion · FiLM · gated fusion · cross-gated fusion&lt;/font&gt;" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#6A1B9A;strokeWidth=5;fontSize=58;fontStyle=1;fontFamily=Arial;fontColor=#1A1A1A;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2470" width="2940" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="p3pred" value="Trait prediction&#10;&#10;compact and&#10;fused models" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#6A1B9A;strokeWidth=5;fontSize=48;fontStyle=1;fontFamily=Arial;fontColor=#1A1A1A;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2760" width="680" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="p3lso" value="Leave-source-out&#10;validation&#10;&#10;unseen acquisition&#10;source" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#EF6C00;strokeWidth=5;fontSize=44;fontStyle=1;fontFamily=Arial;fontColor=#1A1A1A;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="993" y="2760" width="680" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="p3recal" value="Few-sample affine&#10;recalibration&#10;&#10;small labelled subset&#10;from held-out source" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#EF6C00;strokeWidth=5;fontSize=44;fontStyle=1;fontFamily=Arial;fontColor=#1A1A1A;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1746" y="2760" width="680" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="p3out" value="Plant-trait prediction&#10;&#10;performance,&#10;transferability,&#10;deployment feasibility" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFE0B2;strokeColor=#E65100;strokeWidth=6;fontSize=44;fontStyle=1;fontFamily=Arial;fontColor=#1A1A1A;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2499" y="2760" width="680" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="p3note" value="Phase 1 and Phase 2 run in parallel; compact and fused models are evaluated under the same source-transfer protocol" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=38;fontStyle=3;fontFamily=Arial;fontColor=#4A4A4A;" vertex="1" parent="1">
+          <mxGeometry x="240" y="3125" width="2940" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- ===== EDGES ===== -->
+        <mxCell id="y1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#546E7A;strokeWidth=5;endArrow=block;endFill=1;endSize=9;exitX=0.25;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="ds" target="lab">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1920" y="425" /><mxPoint x="1300" y="425" /></Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#546E7A;strokeWidth=5;endArrow=block;endFill=1;endSize=9;exitX=0.75;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="ds" target="unlab">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="2270" y="425" /><mxPoint x="2890" y="425" /></Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1565C0;strokeWidth=5;endArrow=block;endFill=1;endSize=9;exitX=0.179;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="lab" target="p1ref">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1120" y="965" /><mxPoint x="520" y="965" /></Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1565C0;strokeWidth=5;endArrow=block;endFill=1;endSize=9;exitX=0.482;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="lab" target="p1beam">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#2E7D32;strokeWidth=5;endArrow=block;endFill=1;endSize=9;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="unlab" target="p2mask">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1565C0;strokeWidth=5;endArrow=block;endFill=1;endSize=9;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="p1beam" target="p1bands">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1565C0;strokeWidth=5;endArrow=block;endFill=1;endSize=9;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="p1bands" target="p1cmp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#EF6C00;strokeWidth=5;endArrow=block;endFill=1;endSize=9;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="p1ref" target="p1eff">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#EF6C00;strokeWidth=5;endArrow=block;endFill=1;endSize=9;exitX=0;exitY=0.5;entryX=1;entryY=0.5;fontSize=40;fontStyle=1;fontFamily=Arial;fontColor=#BF360C;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="p1cmp" target="p1eff">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="870" y="1695" /><mxPoint x="870" y="1795" /></Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#2E7D32;strokeWidth=5;endArrow=block;endFill=1;endSize=9;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="p2mask" target="p2enc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#2E7D32;strokeWidth=5;endArrow=block;endFill=1;endSize=9;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="p2enc" target="p2rep">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#2E7D32;strokeWidth=5;endArrow=block;endFill=1;endSize=9;exitX=0;exitY=0.5;entryX=0.5;entryY=0;" edge="1" parent="1" source="p2rep" target="p2down">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="2160" y="1705" /></Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y13" value="compact&#10;representation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1565C0;strokeWidth=8;endArrow=block;endFill=1;endSize=9;exitX=0.943;exitY=1;entryX=0.4626;entryY=0;fontSize=42;fontStyle=1;fontFamily=Arial;fontColor=#0D47A1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="p1cmp" target="p3fuse">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <mxPoint x="-215" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y14" value="SSL&#10;representation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#2E7D32;strokeWidth=8;endArrow=block;endFill=1;endSize=9;exitX=0.629;exitY=1;entryX=0.932;entryY=0;fontSize=42;fontStyle=1;fontFamily=Arial;fontColor=#1B5E20;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="p2rep" target="p3fuse">
+          <mxGeometry x="-0.25" relative="1" as="geometry">
+            <mxPoint x="-215" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#6A1B9A;strokeWidth=5;endArrow=block;endFill=1;endSize=9;exitX=0.1156;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="p3fuse" target="p3pred">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#EF6C00;strokeWidth=5;endArrow=block;endFill=1;endSize=9;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="p3pred" target="p3lso">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#EF6C00;strokeWidth=5;endArrow=block;endFill=1;endSize=9;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="p3lso" target="p3recal">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#E65100;strokeWidth=6;endArrow=block;endFill=1;endSize=9;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="p3recal" target="p3out">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,241 @@
+target,rank,wavelength_nm,region,region_interpretation
+cab,1,1350.0,swir_water_1450_region,around 1450 nm water absorption region
+cab,2,424.0,blue_visible_pigment,blue visible pigment absorption; chlorophyll/carotenoid sensitivity
+cab,3,547.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+cab,4,817.0,nir_leaf_structure,near-infrared scattering; leaf/canopy internal structure
+cab,5,739.0,red_edge_chlorophyll_structure,red-edge transition; chlorophyll and canopy/leaf structure
+cab,6,882.0,nir_leaf_structure,near-infrared scattering; leaf/canopy internal structure
+cab,7,841.0,nir_leaf_structure,near-infrared scattering; leaf/canopy internal structure
+cab,8,649.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+cab,9,683.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+cab,10,954.0,nir_leaf_structure,near-infrared scattering; leaf/canopy internal structure
+cab,11,1129.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cab,12,1459.0,swir_water_1450_region,around 1450 nm water absorption region
+cab,13,1264.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cab,14,1198.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cab,15,641.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+cab,16,618.0,yellow_orange_visible,yellow/orange visible transition; pigment shoulder region
+cab,17,1170.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cab,18,716.0,red_edge_chlorophyll_structure,red-edge transition; chlorophyll and canopy/leaf structure
+cab,19,697.0,red_edge_chlorophyll_structure,red-edge transition; chlorophyll and canopy/leaf structure
+cab,20,612.0,yellow_orange_visible,yellow/orange visible transition; pigment shoulder region
+cab,21,637.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+cab,22,710.0,red_edge_chlorophyll_structure,red-edge transition; chlorophyll and canopy/leaf structure
+cab,23,1487.0,swir_water_1450_region,around 1450 nm water absorption region
+cab,24,1444.0,swir_water_1450_region,around 1450 nm water absorption region
+cab,25,715.0,red_edge_chlorophyll_structure,red-edge transition; chlorophyll and canopy/leaf structure
+cab,26,616.0,yellow_orange_visible,yellow/orange visible transition; pigment shoulder region
+cab,27,1193.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cab,28,1188.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cab,29,548.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+cab,30,698.0,red_edge_chlorophyll_structure,red-edge transition; chlorophyll and canopy/leaf structure
+cw,1,1597.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,2,539.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+cw,3,585.0,yellow_orange_visible,yellow/orange visible transition; pigment shoulder region
+cw,4,1545.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,5,1106.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cw,6,1184.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cw,7,1297.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cw,8,980.0,water_970_nm_region,near 970 nm water absorption feature
+cw,9,1697.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,10,1434.0,swir_water_1450_region,around 1450 nm water absorption region
+cw,11,1591.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,12,1705.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,13,1289.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cw,14,937.0,nir_leaf_structure,near-infrared scattering; leaf/canopy internal structure
+cw,15,1602.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,16,1609.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,17,1664.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,18,1652.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,19,1668.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,20,1642.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,21,1593.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,22,1601.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,23,1646.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,24,1592.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,25,1596.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,26,1608.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,27,1648.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,28,1604.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,29,1607.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cw,30,1606.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cm,1,1715.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cm,2,1559.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cm,3,1300.0,swir_water_1450_region,around 1450 nm water absorption region
+cm,4,1574.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cm,5,992.0,water_970_nm_region,near 970 nm water absorption feature
+cm,6,510.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+cm,7,660.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+cm,8,1081.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cm,9,1738.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cm,10,1728.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cm,11,1332.0,swir_water_1450_region,around 1450 nm water absorption region
+cm,12,987.0,water_970_nm_region,near 970 nm water absorption feature
+cm,13,1647.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cm,14,1693.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cm,15,1734.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cm,16,1667.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cm,17,699.0,red_edge_chlorophyll_structure,red-edge transition; chlorophyll and canopy/leaf structure
+cm,18,514.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+cm,19,2168.0,swir_protein_cellulose_lignin,"SWIR biochemical absorptions; protein, cellulose, lignin, starch"
+cm,20,2166.0,swir_protein_cellulose_lignin,"SWIR biochemical absorptions; protein, cellulose, lignin, starch"
+cm,21,2157.0,swir_protein_cellulose_lignin,"SWIR biochemical absorptions; protein, cellulose, lignin, starch"
+cm,22,982.0,water_970_nm_region,near 970 nm water absorption feature
+cm,23,1670.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cm,24,1676.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cm,25,1740.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cm,26,1672.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cm,27,2176.0,swir_protein_cellulose_lignin,"SWIR biochemical absorptions; protein, cellulose, lignin, starch"
+cm,28,1739.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cm,29,1645.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cm,30,1639.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+LAI,1,2055.0,swir_protein_cellulose_lignin,"SWIR biochemical absorptions; protein, cellulose, lignin, starch"
+LAI,2,1066.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+LAI,3,746.0,nir_leaf_structure,near-infrared scattering; leaf/canopy internal structure
+LAI,4,1730.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+LAI,5,1340.0,swir_water_1450_region,around 1450 nm water absorption region
+LAI,6,1324.0,swir_water_1450_region,around 1450 nm water absorption region
+LAI,7,1601.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+LAI,8,1054.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+LAI,9,1222.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+LAI,10,990.0,water_970_nm_region,near 970 nm water absorption feature
+LAI,11,681.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+LAI,12,649.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+LAI,13,653.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+LAI,14,606.0,yellow_orange_visible,yellow/orange visible transition; pigment shoulder region
+LAI,15,666.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+LAI,16,651.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+LAI,17,705.0,red_edge_chlorophyll_structure,red-edge transition; chlorophyll and canopy/leaf structure
+LAI,18,663.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+LAI,19,531.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+LAI,20,654.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+LAI,21,661.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+LAI,22,650.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+LAI,23,662.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+LAI,24,664.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+LAI,25,2057.0,swir_protein_cellulose_lignin,"SWIR biochemical absorptions; protein, cellulose, lignin, starch"
+LAI,26,2085.0,swir_protein_cellulose_lignin,"SWIR biochemical absorptions; protein, cellulose, lignin, starch"
+LAI,27,2061.0,swir_protein_cellulose_lignin,"SWIR biochemical absorptions; protein, cellulose, lignin, starch"
+LAI,28,2060.0,swir_protein_cellulose_lignin,"SWIR biochemical absorptions; protein, cellulose, lignin, starch"
+LAI,29,2058.0,swir_protein_cellulose_lignin,"SWIR biochemical absorptions; protein, cellulose, lignin, starch"
+LAI,30,2059.0,swir_protein_cellulose_lignin,"SWIR biochemical absorptions; protein, cellulose, lignin, starch"
+cp,1,556.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+cp,2,533.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+cp,3,1736.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cp,4,1275.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cp,5,1226.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cp,6,1768.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cp,7,721.0,red_edge_chlorophyll_structure,red-edge transition; chlorophyll and canopy/leaf structure
+cp,8,1542.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cp,9,1767.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cp,10,679.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+cp,11,544.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+cp,12,793.0,nir_leaf_structure,near-infrared scattering; leaf/canopy internal structure
+cp,13,1573.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cp,14,656.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+cp,15,1665.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cp,16,1041.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cp,17,1241.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cp,18,1211.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cp,19,616.0,yellow_orange_visible,yellow/orange visible transition; pigment shoulder region
+cp,20,485.0,blue_visible_pigment,blue visible pigment absorption; chlorophyll/carotenoid sensitivity
+cp,21,510.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+cp,22,522.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+cp,23,669.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+cp,24,1770.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cp,25,675.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+cp,26,630.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+cp,27,623.0,yellow_orange_visible,yellow/orange visible transition; pigment shoulder region
+cp,28,519.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+cp,29,551.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+cp,30,664.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+cbc,1,1706.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cbc,2,1536.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cbc,3,1271.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cbc,4,1007.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cbc,5,1090.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cbc,6,709.0,red_edge_chlorophyll_structure,red-edge transition; chlorophyll and canopy/leaf structure
+cbc,7,1264.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cbc,8,1331.0,swir_water_1450_region,around 1450 nm water absorption region
+cbc,9,1796.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cbc,10,669.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+cbc,11,487.0,blue_visible_pigment,blue visible pigment absorption; chlorophyll/carotenoid sensitivity
+cbc,12,526.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+cbc,13,1581.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cbc,14,1618.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cbc,15,1737.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cbc,16,1443.0,swir_water_1450_region,around 1450 nm water absorption region
+cbc,17,646.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+cbc,18,1104.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+cbc,19,572.0,yellow_orange_visible,yellow/orange visible transition; pigment shoulder region
+cbc,20,1687.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cbc,21,1662.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cbc,22,2099.0,swir_protein_cellulose_lignin,"SWIR biochemical absorptions; protein, cellulose, lignin, starch"
+cbc,23,1685.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cbc,24,1596.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cbc,25,518.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+cbc,26,1588.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cbc,27,1603.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cbc,28,2123.0,swir_protein_cellulose_lignin,"SWIR biochemical absorptions; protein, cellulose, lignin, starch"
+cbc,29,1797.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+cbc,30,1795.0,swir_dry_matter_protein_carbon,"SWIR dry matter, protein, carbon and cellulose/lignin sensitivity"
+car,1,1431.0,swir_water_1450_region,around 1450 nm water absorption region
+car,2,440.0,blue_visible_pigment,blue visible pigment absorption; chlorophyll/carotenoid sensitivity
+car,3,568.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+car,4,400.0,blue_visible_pigment,blue visible pigment absorption; chlorophyll/carotenoid sensitivity
+car,5,446.0,blue_visible_pigment,blue visible pigment absorption; chlorophyll/carotenoid sensitivity
+car,6,439.0,blue_visible_pigment,blue visible pigment absorption; chlorophyll/carotenoid sensitivity
+car,7,486.0,blue_visible_pigment,blue visible pigment absorption; chlorophyll/carotenoid sensitivity
+car,8,1291.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+car,9,704.0,red_edge_chlorophyll_structure,red-edge transition; chlorophyll and canopy/leaf structure
+car,10,909.0,nir_leaf_structure,near-infrared scattering; leaf/canopy internal structure
+car,11,675.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+car,12,1225.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+car,13,1033.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+car,14,1275.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+car,15,1078.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+car,16,607.0,yellow_orange_visible,yellow/orange visible transition; pigment shoulder region
+car,17,600.0,yellow_orange_visible,yellow/orange visible transition; pigment shoulder region
+car,18,677.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+car,19,596.0,yellow_orange_visible,yellow/orange visible transition; pigment shoulder region
+car,20,457.0,blue_visible_pigment,blue visible pigment absorption; chlorophyll/carotenoid sensitivity
+car,21,487.0,blue_visible_pigment,blue visible pigment absorption; chlorophyll/carotenoid sensitivity
+car,22,1472.0,swir_water_1450_region,around 1450 nm water absorption region
+car,23,680.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+car,24,402.0,blue_visible_pigment,blue visible pigment absorption; chlorophyll/carotenoid sensitivity
+car,25,441.0,blue_visible_pigment,blue visible pigment absorption; chlorophyll/carotenoid sensitivity
+car,26,1475.0,swir_water_1450_region,around 1450 nm water absorption region
+car,27,1474.0,swir_water_1450_region,around 1450 nm water absorption region
+car,28,679.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+car,29,1459.0,swir_water_1450_region,around 1450 nm water absorption region
+car,30,1455.0,swir_water_1450_region,around 1450 nm water absorption region
+anth,1,592.0,yellow_orange_visible,yellow/orange visible transition; pigment shoulder region
+anth,2,486.0,blue_visible_pigment,blue visible pigment absorption; chlorophyll/carotenoid sensitivity
+anth,3,1348.0,swir_water_1450_region,around 1450 nm water absorption region
+anth,4,1471.0,swir_water_1450_region,around 1450 nm water absorption region
+anth,5,552.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+anth,6,1297.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+anth,7,695.0,red_edge_chlorophyll_structure,red-edge transition; chlorophyll and canopy/leaf structure
+anth,8,676.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+anth,9,512.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+anth,10,561.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+anth,11,1138.0,nir_swir_structure_water,NIR/SWIR transition; structure and water-sensitive continuum
+anth,12,972.0,water_970_nm_region,near 970 nm water absorption feature
+anth,13,525.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+anth,14,721.0,red_edge_chlorophyll_structure,red-edge transition; chlorophyll and canopy/leaf structure
+anth,15,655.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+anth,16,767.0,nir_leaf_structure,near-infrared scattering; leaf/canopy internal structure
+anth,17,1463.0,swir_water_1450_region,around 1450 nm water absorption region
+anth,18,1470.0,swir_water_1450_region,around 1450 nm water absorption region
+anth,19,694.0,red_edge_chlorophyll_structure,red-edge transition; chlorophyll and canopy/leaf structure
+anth,20,675.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+anth,21,643.0,red_chlorophyll_absorption,red chlorophyll absorption zone
+anth,22,560.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+anth,23,557.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+anth,24,559.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+anth,25,556.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+anth,26,555.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+anth,27,558.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+anth,28,554.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+anth,29,553.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response
+anth,30,526.0,green_visible_pigment,green visible reflectance; pigment balance and leaf color response

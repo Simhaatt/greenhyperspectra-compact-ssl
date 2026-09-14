@@ -1,0 +1,24 @@
+# Core numerical / data stack
+numpy>=1.24,<2.2
+pandas>=2.0
+pyarrow>=14.0
+scipy>=1.11
+scikit-learn>=1.3
+
+# Deep learning (CPU wheels by default; see docs/REPRODUCE.md for CUDA)
+torch>=2.1,<2.6
+
+# Dataset access
+datasets>=2.16
+huggingface-hub>=0.20
+
+# Interpretation / statistics
+shap>=0.44
+statsmodels>=0.14
+
+# Figures
+matplotlib>=3.7
+
+# Report generation (optional — only for src/build_*_report.py)
+python-docx>=1.1
+markdown>=3.5

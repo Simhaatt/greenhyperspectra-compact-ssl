@@ -1,0 +1,6 @@
+comparison,model_a,model_b,n_traits,mean_r2_a,mean_r2_b,mean_difference_a_minus_b,bootstrap_ci95_low,bootstrap_ci95_high,traits_a_better,traits_b_better,test,p_value
+ResidualMLP labelled vs CrossGated NAM hybrid,BeamK30_ResidualMLP,Hybrid_BeamK30_SSL_CrossGatedNAMHead,8,0.6242237165570259,0.5975666493177414,0.02665706723928453,-0.00025473286708192766,0.06073181579510373,6,2,wilcoxon_two_sided,0.1953125
+ResidualMLP labelled vs CrossGated DCN hybrid,BeamK30_ResidualMLP,Hybrid_BeamK30_SSL_CrossGatedDCNHead,8,0.6242237165570259,0.5886599992712338,0.03556371728579204,0.015208929218351883,0.058601568142573,7,1,wilcoxon_two_sided,0.015625
+ResidualMLP labelled vs Physics multitask,BeamK30_ResidualMLP,CrossGatedPhysicsMultitask,8,0.6242237165570259,0.6008338332176208,0.02338988333940506,-0.014838839570681245,0.07040739866594473,6,2,wilcoxon_two_sided,0.3828125
+CrossGated NAM hybrid vs CrossGated MLP hybrid,Hybrid_BeamK30_SSL_CrossGatedNAMHead,Hybrid_BeamK30_SSL_CrossGatedFusion,24,0.5975666493177414,0.5832774639129639,0.01428918540477752,0.005109635409381654,0.02509359735995529,18,6,wilcoxon_two_sided,0.007779525826911433
+Physics-guided vs plain multitask,CrossGatedPhysicsMultitask,CrossGatedMultitask,8,0.6008338332176208,0.6000700443983078,0.0007637888193130563,-0.0002960221841931343,0.0016408488154411316,6,2,wilcoxon_two_sided,0.3125
