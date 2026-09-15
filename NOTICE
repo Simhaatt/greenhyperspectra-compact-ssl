@@ -1,0 +1,25 @@
+Band- and Label-Efficient Hyperspectral Plant Trait Prediction
+Attribution and scope of the licence
+==============================================================
+
+Copyright (c) 2026 Simhaa T. T. and Shihabudheen K. V.
+
+This work — including the source code, result tables and figures in this
+repository — is licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0). The full licence text is in LICENSE;
+a human-readable summary is at https://creativecommons.org/licenses/by/4.0/
+
+--------------------------------------------------------------------------
+THIRD-PARTY DATA
+
+The GreenHyperSpectra dataset is NOT distributed with this repository and
+is NOT covered by this license. It must be obtained from its original
+source under its own terms; see docs/DATA.md.
+--------------------------------------------------------------------------
+
+When reusing this material, please attribute it using the metadata in
+CITATION.cff and cite the archived record:
+
+  T. T., S., & K. V., S. (2026). Band- and Label-Efficient Hyperspectral
+  Plant Trait Prediction: reproducibility package. Zenodo.
+  https://doi.org/10.5281/zenodo.22755275
